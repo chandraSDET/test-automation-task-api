@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API tests" verbose="1">
+
+    <listeners>
+        <listener class-name="com.task.TestListener"/>
+    </listeners>
+
+    <test name="API Test execution">
+        <classes>
+            <class name="com.task.test.TaskTest"/>
+        </classes>
+    </test>
+
+</suite>
